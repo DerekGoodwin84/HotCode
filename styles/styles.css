@@ -1,18 +1,26 @@
+/*search bar left upper corner//
+// 4 or 5 clickable links across left
+to right at top selects with drop down hover swirl//
+//solid company logo or advertisemnt at top(banner )//
+*/
 html{
 	font-size:10px;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
     background-color: #001;	
 }
 h1{
-	font-size: 60px;
+	font-size: 30px;
 	text-align: center;
 }
 p,li{
-	font-size:16px;
+	font-size:11px;
 	line-height:2;
 	letter-spacing:1px;
 }
 body{
+	background:url('../images/codeblack.png');
+}
+.container{
 	width:600px;
 	margin:0 auto;
 	background-color: #fff;
@@ -28,4 +36,7 @@ h1{
 img{
 	display:block;
 	margin:0 auto;
+}
+a:hover {
+	
 }
